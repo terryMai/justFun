@@ -1,0 +1,112 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+}
+#dialog{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 80px;
+    background-color: coral;
+    color: aquamarine;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 80px;
+}
+.part{
+    width: 25%;
+    height: 25%;
+    border: 1px #9b9b9b solid;
+    background-image: url("./we.jpg");
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.buttonGroup{
+    display: flex;
+    align-items: center;
+}
+.button{
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #2486ff;
+    border: #2486ff 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+.time{
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #2486ff;
+    border: #2486ff 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+.part1{
+    background-position: 0 0;
+}
+.part2{
+    background-position: -125px 0;
+}
+.part3{
+    background-position: -250px 0;
+}
+.part4{
+    background-position: -375px 0;
+}
+.part5{
+    background-position: 0 -125px;
+}
+.part6{
+    background-position: -125px -125px;
+}
+.part7{
+    background-position: -250px -125px;
+}
+.part8{
+    background-position: -375px -125px;
+}
+.part9{
+    background-position: 0 -250px;
+}
+.part10{
+    background-position: -125px -250px;
+}
+.part11{
+    background-position: -250px -250px;
+}
+.part12{
+    background-position:-375px -250px;
+}
+.part13{
+    background-position: 0 -375px;
+}
+.part14{
+    background-position: -125px -375px;
+}
+.part15{
+    background-position: -250px -375px;
+}
+.part16{
+    background-position: 357px 357px;
+}
